@@ -9,5 +9,6 @@
 
 (module+ test
   (require rackunit)
+  
   (check-equal? (not-gate 0) 1)
   (check-equal? (not-gate 1) 0))

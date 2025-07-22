@@ -1,7 +1,6 @@
 #lang racket
 
 (require "./nand-gate.rkt")
-
 (require "./not-gate.rkt")
 
 (provide and-gate)
@@ -11,6 +10,7 @@
 
 (module+ test
   (require rackunit)
+  
   (check-equal? (and-gate 0 0) 0)
   (check-equal? (and-gate 0 1) 0) 
   (check-equal? (and-gate 1 0) 0) 

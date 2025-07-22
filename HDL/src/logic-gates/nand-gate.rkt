@@ -9,6 +9,7 @@
 
 (module+ test
   (require rackunit)
+  
   (check-equal? (nand-gate 0 0) 1)
   (check-equal? (nand-gate 1 0) 1)
   (check-equal? (nand-gate 0 1) 1)

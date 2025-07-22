@@ -16,6 +16,7 @@
 
 (module+ test
   (require rackunit)
+  
   (check-equal? (full-adder 0 0 0) '(0 0))
   (check-equal? (full-adder 0 0 1) '(1 0))
   (check-equal? (full-adder 0 1 0) '(1 0))
